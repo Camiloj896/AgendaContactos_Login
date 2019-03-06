@@ -1,0 +1,124 @@
+*{
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	font-size: 3rem;
+	font-weight: bold;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+nav{
+	background-color: black;	
+	margin: auto;
+	text-align: center;
+	height: 40px;
+}
+
+nav ul{
+	height: 100%;	
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;			
+}
+
+nav ul li a{
+	display: block;
+	text-decoration: none;
+	color: white;	
+	padding: 10px 20px;	
+	margin-top: 5px;	
+	border-radius: 10px 10px 0 0;	
+}
+
+nav ul li a:hover{
+	background-color: white;
+	color: black;	
+}
+
+.Container{
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;	
+	width: 100%;
+	height: 80vh;	
+	overflow: none;
+	flex-wrap: wrap;
+}
+
+
+form label > input{	
+	width: 70%;
+	height: 50px;
+	margin: 5px 35px;
+
+}
+
+form > input#UsuRegistro{
+	text-transform: lowercase;
+}
+
+form h1{
+	font-size: 1.5rem;
+	margin-top: 10px;	
+}
+
+form .RegisBTN{
+	margin-top: 15px;
+	text-decoration: none;	
+	border-radius: 15;	
+	border: 1px solid #008FFF;
+	width: 30%;
+	color: black;
+	padding: 5px;
+	border-radius: 15px;
+	text-align: center;
+}
+
+form ..RegisBTN:hover{
+	color: white;
+	background-color: #008FFF;	
+}
+
+.Container_Usuario{
+	text-align: center;
+}
+
+.Container_Usuario > table{
+	border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #dddddd;    
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.btnUsu{
+	text-decoration:none;
+	border: 1px solid #FF7400;
+	color: black;
+	font-weight: bold;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.btnUsu:hover{
+	color: white;
+	background-color: #FF7400;
+}
+
+
